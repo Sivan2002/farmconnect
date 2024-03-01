@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products-Farm Connect</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/Farmlogo.png" width="150px" height="150px">
+            </div>
+            <nav>
+                <ul id="menuitems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="addproduct.html">Products</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="Account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="Cart.html"><img src="images/cart.png" style="width: 30px; height: 30px;"></a>
+            <img src="images/menu.png.png" class="menuicon" onclick="menuicon()">
+        </div>
+    </div>
+<div class="smallcontainer">
+    <div class="row2">
+        <h1 style="text-align: center; font-size: 50px; color: green;" id="head">Welcome Farmer</h1>
+        <h2 class="title">Add Your Products</h2>
+        <select>
+            <option>Default Sorting</option>
+            <option>Sort By Vegetables</option>
+            <option>Sort By Popularity</option>
+            <option>Sort By Fruits</option>
+            <option>Sort By Sale</option>
+        </select>
+    </div>
+    <div class="row">
+        <div class="col_4">
+          <a href="Tomatoadd.html"><img src="images/tomato.webp"></a>
+            <h4>Tomato</h4>
+        </div>
+        <div class="col_4">
+           <a href="Potatoadd.html"><img src="images/potato.webp"></a>
+            <h4>Potato</h4>
+        </div>
+        <div class="col_4">
+            <a href="Onionadd.html"><img src="images/onio.webp"></a>
+            <h4>onion</h4>
+        </div>
+        <div class="col_4">
+            <a href="Beetrootadd.html"><img src="images/beetroot.jpg"></a>
+            <h4>Beetroot</h4>
+        </div>
+   </div>
+</div>
+<div class="smallcontainer">
+ <div class="row">
+    <div class="col_4">
+        <img src="images/latest 1.webp">
+        <h4>Cabbage</h4>
+    </div>
+    <div class="col_4">
+        <img src="images/latest 2.webp">
+        <h4>Brinjal</h4>
+    </div>
+    <div class="col_4">
+        <img src="images/latest 3.webp">
+        <h4>Carrot</h4>
+    </div>
+    <div class="col_4">
+        <img src="images/latest 4.jpg">
+        <h4>Cucumber</h4>
+    </div>
+    <div class="col_4">
+        <img src="images/latest 5.webp">
+        <h4>Peas</h4>
+    </div>
+    <div class="col_4">
+        <img src="images/latest 6.webp">
+        <h4>Radish</h4>
+    </div>
+    <div class="col_4">
+        <img src="images/latest 7.jpg">
+        <h4>Lady's Finger</h4>
+    </div>
+    <div class="col_4">
+        <img src="images/latest 8.jpg">
+        <h4>Capsicum</h4>
+    </div>
+ </div>
+</div>
+
+<!-- footer -->
+<div class="footer">
+    <div class="footerstyle">
+        <div class="row">
+            <div class="footercol_1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile phone.</p>
+                <div class="applogo">
+                    <img src="images/playstorelogo.png">
+                    
+                </div>
+            </div>
+            <div class="footercol_2">   
+                <img src="images/Farmlogo 1.png">
+                <p>Our aim is to sell the products of the farmers to the customers and 
+                    help farmers to improve their lifestyle.
+                </p>
+            </div>
+            <div class="footercol_3">   
+              <h3>Useful Links</h3>
+              <ul>
+                <li>Membership</li>
+                <li>Blog post</li>
+                <li>Return Policy</li>
+                <li>Join Affiliates</li>
+              </ul>
+            </div>
+            <div class="footercol_4">   
+                <h3>Follow us</h3>
+                <ul>
+                  <li>Facebook</li>
+                  <li>Twitter</li>
+                  <li>Instagram</li>
+                  <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+            <p class="copyrigtht" style="text-align: center;"> Copy Right 2023 - Easy Tutorials </p>
+    </div>
+</div>
+
+<!-- javascript for menu items -->
+<script>
+    var Menuitems = document.getElementById("menuitems");
+    Menuitems.style.maxHeight = "0px";
+
+    function menuicon(){
+        if (Menuitems.style.maxHeight == "0px")
+        {
+            Menuitems.style.maxHeight = "200px"
+        }
+        else{
+            Menuitems.style.maxHeight = "0px"
+        }
+
+    }
+</script>
+
+</body>
+</html>

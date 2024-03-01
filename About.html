@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farm Connect</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/Farmlogo.png" width="150px" height="150px">
+            </div>
+            <nav>
+                <ul id="menuitems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="Account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="Cart.html"><img src="images/cart.png" style="width: 30px; height: 30px;"></a>
+            <img src="images/menu.png.png" class="menuicon" onclick="menuicon()">
+        </div>
+        <div class="heading">
+            <h1 style="text-align: center; font-size: 40px;" id="aboutus">About Us</h1>
+        </div>
+       <div class="row">
+            <div class="col-2">
+                <h1 id="head">Welcome to My Website !</h1>
+                <p style="justify-content: left;">Our Motive is to develop a website which fully useful for farmers to sell 
+                    their products by using us as a bridge between them and the good customers. From this type of
+                    selling products farmers can be free from agent scams and they can directly talk with the customers 
+                    after the customer decided to buy their product and they can make the sellin however they want as long as the 
+                    customer's okay with it.  </p>
+                <p>"if you eat today. Thank a Farmer." </p>
+                <a href="Account.html" class="btn">Explore Now &#8594;</a>
+            </div>
+            <div class="col-2">
+                <img src="images/about.png">
+            </div>       
+                
+                
+            </div>
+
+    </div>
+<!-- footer -->
+<div class="footer">
+    <div class="footerstyle">
+        <div class="row">
+            <div class="footercol_1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile phone.</p>
+                <div class="applogo">
+                    <img src="images/playstorelogo.png">
+                    
+                </div>
+            </div>
+            <div class="footercol_2">   
+                <img src="images/Farmlogo 1.png">
+                <p>Our aim is to sell the products of the farmers to the customers and 
+                    help farmers to improve their lifestyle.
+                </p>
+            </div>
+            <div class="footercol_3">   
+              <h3>Useful Links</h3>
+              <ul>
+                <li>Membership</li>
+                <li>Blog post</li>
+                <li>Return Policy</li>
+                <li>Join Affiliates</li>
+              </ul>
+            </div>
+            <div class="footercol_4">   
+                <h3>Follow us</h3>
+                <ul>
+                  <li>Facebook</li>
+                  <li>Twitter</li>
+                  <li>Instagram</li>
+                  <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+            <p class="copyrigtht" style="text-align: center;"> Copy Right 2023 - Easy Tutorials </p>
+    </div>
+</div>
+<!-- javascript for menu items -->
+<script>
+    var Menuitems = document.getElementById("menuitems");
+    Menuitems.style.maxHeight = "0px";
+
+    function menuicon(){
+        if (Menuitems.style.maxHeight == "0px")
+        {
+            Menuitems.style.maxHeight = "200px"
+        }
+        else{
+            Menuitems.style.maxHeight = "0px"
+        }
+
+    }
+</script>
+
+</body>
+</html>
